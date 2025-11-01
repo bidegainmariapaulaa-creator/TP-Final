@@ -11319,7 +11319,7 @@ header.masthead {
 header.masthead:before {
   content: "";
   position: absolute;
-  background-color: #ffc107;
+  background-color: #f7bc08b0;
   height: 100%;
   width: 100%;
   top: 0;
