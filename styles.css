@@ -11384,7 +11384,7 @@ footer.footer {
 }
 /* === Estilo personalizado para el título principal === */
 header.masthead h1 {
-  color: rgb(231 211 137);
+  color: rgb(231 211 137) !important; 
 }
 /* === Color de todos los títulos h3 === */
 h3 {
