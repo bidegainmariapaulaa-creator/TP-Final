@@ -3035,8 +3035,8 @@ textarea.form-control-lg {
 }
 .btn-primary:hover {
   color: #000000;
-  background-color: #0b5ed7;
-  border-color: #0a58ca;
+  background-color: #c96a1c;
+  border-color: #c96a1c;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
