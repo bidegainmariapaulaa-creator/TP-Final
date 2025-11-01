@@ -7759,11 +7759,10 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text {
-  --bs-text-opacity: 1;
-  color: rgb(122 73 10), var(--bs-text-opacity)) !important;
+.text-brown {
+    --bs-text-opacity: 1;
+    color: rgb(122 73 10) !important;
 }
-
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
