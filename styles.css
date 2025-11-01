@@ -11370,7 +11370,7 @@ header.masthead h1, header.masthead .h1 {
 .call-to-action:before {
   content: "";
   position: absolute;
-  background-color: #1c375e;
+  background-color: #ffc107;
   height: 100%;
   width: 100%;
   top: 0;
