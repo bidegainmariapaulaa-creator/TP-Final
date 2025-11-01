@@ -11384,13 +11384,13 @@ footer.footer {
 }
 /* === Estilo personalizado para el título principal === */
 header.masthead h1 {
-  color: #E7D389; 
+  color: #7B3F00; 
 }
 /* === Color de todos los títulos h3 === */
 h3 {
-  color: #7B3F00;
+  color: #c96a1c;
 }
 .navegacion{background-color: rgb(231 211 137)!important;}
-h1 {
+h2 {
       text-align: center;
     }
