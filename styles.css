@@ -11399,3 +11399,27 @@ h3 {
 h2 {
       text-align: center;
     }
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.showcase-text {
+  flex: 1;
+  background-color: #fff; /* opcional */
+}
+
+.showcase-img {
+  flex: 1;
+  min-height: 30rem;
+  background-size: cover;
+  background-position: center;
+}
+
+/* En pantallas chicas: apila texto e imagen */
+@media (max-width: 768px) {
+  .showcase {
+    flex-direction: column;
+  }
+}
