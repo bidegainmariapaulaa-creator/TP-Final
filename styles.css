@@ -11459,12 +11459,16 @@ h2 {
   object-fit: cover;
 }
 
+footer.row {
+  text-align: center !important;
+} 
+
 .list-inline {
-  display: flex important; 
+  display: flex !important; 
   justify-content: center !important;
   padding-left: 0 !important;
 }
 
 .bi-instagram {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
 }
