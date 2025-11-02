@@ -633,13 +633,7 @@ progress {
 .container-xl,
 .container-lg,
 .container-md,
-container-sm, .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-    width: 100%;
-    padding-right: var(--bs-gutter-x, 0.75rem);
-    padding-left: var(--bs-gutter-x, 0.75rem);
-    margin-right: auto;
-    margin-left: auto;
-}
+.container-sm {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
@@ -7766,10 +7760,11 @@ textarea.form-control-lg {
   color: rgba(var(--bs-black-rgb), var(--bs-text-opacity)) !important;
 }
 
-.text-brown {
-    --bs-text-opacity: 1;
-    color: rgb(122 73 10) , var(--bs-text-opacity))!important;
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -7843,7 +7838,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgb(163 30 30), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-dark {
@@ -11347,6 +11342,7 @@ header.masthead h1, header.masthead .h1 {
   min-height: 30rem;
   background-size: cover;
 }
+
 @media (min-width: 768px) {
   .showcase .showcase-text {
     padding: 7rem;
@@ -11383,7 +11379,6 @@ header.masthead h1, header.masthead .h1 {
   left: 0;
   opacity: 0.5;
 }
-
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -11423,3 +11418,4 @@ h2 {
   .showcase {
     flex-direction: column;
   }
+}
