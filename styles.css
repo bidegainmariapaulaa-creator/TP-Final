@@ -11467,8 +11467,15 @@ footer.row {
   display: flex !important; 
   justify-content: center !important;
   padding-left: 0 !important;
+  margin-bottom: 1rem !important; 
 }
 
+.list-inline-item {
+  margin: 0 1 rem !important;
+  flex-shrink: 0;
+
+-bi-facebook,
 .bi-instagram {
   font-size: 1.8rem;
+  line-height: 1;
 }
