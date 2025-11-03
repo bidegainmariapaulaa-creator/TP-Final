@@ -11425,9 +11425,9 @@ h2 {
 
 .showcase-img {
   flex: 1;
-  min-height: 30rem;
   background-size: cover;
   background-position: center;
+  height: 400px; /* ajustá el alto a gusto */
 }
 
 /* En pantallas chicas: apila texto e imagen */
