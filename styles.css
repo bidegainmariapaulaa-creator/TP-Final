@@ -11460,6 +11460,9 @@ h2 {
 }
 
 footer.row {
+  dispolay: flex;
+  flex-direction: column;
+  aling-items: center;
   text-align: center !important;
 } 
 
@@ -11468,10 +11471,11 @@ footer.row {
   justify-content: center !important;
   padding-left: 0 !important;
   margin-bottom: 1rem !important; 
+  margin-left: -50px;
 }
 
 .list-inline-item {
-  margin: 0 1 rem !important;
+  margin: 0 0.3rem !important;
   flex-shrink: 0;
 
 -bi-facebook,
