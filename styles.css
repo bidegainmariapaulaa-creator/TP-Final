@@ -11478,8 +11478,8 @@ footer.row {
   margin: 0 0.7rem !important;
   flex-shrink: 0;
 
-.lbi-facebook,
+.bi-facebook,
 .bi-instagram {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 1;
 }
