@@ -11471,7 +11471,6 @@ footer.row {
   justify-content: center !important;
   padding-left: 0 !important;
   margin-bottom: 1rem !important; 
-  margin-left: -50px;
 }
 
 .list-inline-item {
@@ -11479,11 +11478,11 @@ footer.row {
   flex-shrink: 0;
 
 .bi-facebook {
-  font-size: 2.5rem;
+  font-size: 2.5rem; !important; 
   line-height: 1;
 } 
   
 .bi-instagram {
-  font-size: 3.5rem;
+  font-size: 3.5rem; !important; 
   line-height: 1;
 }
