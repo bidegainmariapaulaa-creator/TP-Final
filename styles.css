@@ -11475,7 +11475,7 @@ footer.row {
 }
 
 .list-inline-item {
-  margin: 0 0.8rem !important;
+  margin: 0 1.8rem !important;
   flex-shrink: 0;
   line-height: 0; !important; 
 }
