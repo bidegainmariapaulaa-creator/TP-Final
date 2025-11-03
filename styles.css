@@ -11469,20 +11469,22 @@ footer.row {
 .list-inline {
   display: flex !important; 
   justify-content: center !important;
+  align-items: center !important;
   padding-left: 0 !important;
   margin-bottom: 1rem !important; 
 }
 
 .list-inline-item {
-  margin: 0 0.5rem !important;
+  margin: 0 0.7rem !important;
   flex-shrink: 0;
+  lihne-height: 0;
 
 .bi-facebook {
-  font-size: 3.5rem; !important; 
+  font-size: 2.5rem; !important; 
   line-height: 1;
 } 
   
 .bi-instagram {
-  font-size: 2.9rem; !important; 
+  font-size: 3.5rem; !important; 
   line-height: 1;
 }
