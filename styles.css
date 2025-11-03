@@ -11475,11 +11475,15 @@ footer.row {
 }
 
 .list-inline-item {
-  margin: 0 0.7rem !important;
+  margin: 0 0.5rem !important;
   flex-shrink: 0;
 
-.bi-facebook,
 .bi-instagram {
   font-size: 1.8rem;
+  line-height: 1;
+} 
+  
+.bi-instagram {
+  font-size: 2.2rem;
   line-height: 1;
 }
