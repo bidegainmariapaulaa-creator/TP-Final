@@ -11459,11 +11459,9 @@ h2 {
   object-fit: cover;
 }
 
-footer.row {
-  dispolay: flex;
-  flex-direction: column;
-  aling-items: center;
+footer.col-lg-8 {
   text-align: center !important;
+  margin: 0 auto !important;
 } 
 
 .list-inline.mb-5.mb-lg-0 {
@@ -11475,13 +11473,24 @@ footer.row {
 }
 
 .list-inline-item a {
-  padding: 0 0.8rem !important;
+  padding: 0 0.6rem !important;
+  display: inline-block !important;
+  line-height: 1 !important; 
 }
 
 .bi-facebook {
-  font-size: 2.5rem; !important; 
+  font-size: 2.3rem; !important; 
 }
   
 .bi-instagram {
-  font-size: 3.5rem; !important; 
+  font-size: 2.8rem; !important; 
 }
+
+.call-to-action {
+  background-color: #557997 !important; 
+}
+
+.call-to-action {
+  background-color: #FFFFFF !important;
+}
+  
