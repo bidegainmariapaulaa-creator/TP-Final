@@ -11491,11 +11491,8 @@ footer.row {
   font-size: 2.8rem; !important; 
 }
 
-.call-to-action {
-  background-color: #557997 !important; 
-}
-
-.call-to-action {
-  background-color: #FFFFFF !important;
-}
+.masthead h2 {
+  font-size: 1.2rem !important; 
+  margin-top: -30px !important;
+  margin-bottom: 0.5rem !important; 
   
